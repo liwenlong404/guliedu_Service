@@ -1,7 +1,7 @@
 # guli_edu
 
 #### 介绍
-尚硅谷的在线教育项目，没传完就这样吧
+尚硅谷的在线教育项目，其他前端在其他仓库里
 #### 项目涉及技术
 SpringBoot + SpringCloud + MyBatis-Plus + HttpClient + MySQL + Maven+EasyExcel+ nginx，还有些第三方技术：阿里云oss，视频点播，短信服务等等
 
