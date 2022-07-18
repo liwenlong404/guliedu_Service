@@ -15,14 +15,14 @@ public class TestVod {
     public static void main(String[] args) throws ClientException {
         //1.根据视频id，获取播放地址
         //创建初始化对象
-        DefaultAcsClient client = InitObject.initVodClient("LTAI5tQ3z3fTRrmH9AwB2HeD", "vL2PkLwnwVFL2Vj1Kpp1f3l3TAykUO");
+        DefaultAcsClient client = InitObject.initVodClient("", "");
 
         //创建获取视频地址的request和response
         GetPlayInfoRequest request = new GetPlayInfoRequest();
         GetPlayInfoResponse response = new GetPlayInfoResponse();
 
         //向request里设置视频id
-        request.setVideoId("ec74001de24744728c89da4bfcdd75d7");
+        request.setVideoId("");
 
         //调用初始化对象里的方法，传递request，获取数据
         response = client.getAcsResponse(request);
